@@ -1,2 +1,23 @@
 Python version= 3.7.1
 Django version= 2.1.7
+
+
+For creating project in virtual enviornment below are steps:
+
+   1. mkdir django (django is folder to add project)
+   2. cd django
+   3. pip install virtualenv 
+   4. After installation to activate virtualenv :
+       .\Sripts\activate
+   5. Now, pip install django :
+        (django) C:\ cd django
+   6. Now, install packages like pandas etc.. 
+   7. now, we can create project in viirtualenv   
+       django admin startproject todopro
+       then create app
+       python manage.py startapp accounts
+   8. Now for run the app :
+   Before running app migrate app by using command: (python manage.py migrate)
+       python manage.py runserver
+       
+ 
